@@ -3,3 +3,9 @@ build:
   steps:
     - npm-install
     - npm-test
+deploy:
+  steps:
+    - heroku-deploy:
+      key-name: HEROKU_KEY_PAIR
+      user: $HEROKU_USER
+      app-name: $HEROKU_APP_NAME

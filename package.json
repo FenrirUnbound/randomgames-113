@@ -4,6 +4,7 @@
   "description": "Random games",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jenkins-mocha --recursive"
   },
   "repository": {
