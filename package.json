@@ -1,0 +1,29 @@
+{
+  "name": "randomgames-113",
+  "version": "1.0.0",
+  "description": "Random games",
+  "main": "index.js",
+  "scripts": {
+    "test": "jenkins-mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenrirUnbound/randomgames-113.git"
+  },
+  "author": "Darren M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FenrirUnbound/randomgames-113/issues"
+  },
+  "homepage": "https://github.com/FenrirUnbound/randomgames-113#readme",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jenkins-mocha": "^2.5.0",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "hapi": "^13.0.0"
+  }
+}
