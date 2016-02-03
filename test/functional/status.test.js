@@ -4,7 +4,7 @@ describe('Status Route', function () {
     var server; 
 
     beforeEach(function (done) {
-        var main = require('../lib/server');
+        var main = require('../../lib/server');
         server = main(done);
     });
 
