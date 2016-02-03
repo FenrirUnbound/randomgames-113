@@ -15,7 +15,7 @@ describe('Status Route', function () {
     it('returns the status', function (done) {
         server.inject({
             method: 'GET',
-            url: '/api/status'
+            url: '/games/status/api'
         }, function (response) {
             var data;
             expect(response.statusCode).to.equal(200);
