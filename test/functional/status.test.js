@@ -49,7 +49,8 @@ describe('Status Route', function () {
             data = JSON.parse(response.payload);
 
             expect(data).to.deep.equal({
-                api: 'OK'
+                api: 'OK',
+                datastore: 'OK'
             });
             done();
         });
